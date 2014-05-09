@@ -34,5 +34,18 @@ follow any promps that may arise.
 
 ## Environment ##
 
+### iTerm2 ###
+
 Download the [Solarized](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized) colourscheme for iTerm2.
 
+### NPM ###
+
+If you have any problems installing npm, these steps may help
+
+```bash
+$ sudo chown -R "$(whoami)" ~/.npm
+```
+
+```bash
+$ sudo chown -R "$(whoami)" /usr/local/lib/
+```
