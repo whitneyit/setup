@@ -16,7 +16,17 @@ up.
 
 Install [Chocolatey](http://chocolatey.org)
 
+Once installed use `Take Ownership` on the directory
+
 Install [EditorConfig](http://chocolatey.org/packages/editorconfig.core)
+
+To make `EditorConfig` work with Cygwin
+
+```
+cp /cygdrive/c/Chocolatey/bin/editorconfig ~/
+dos2unix ~/editorconfig
+mv ~/editorconfig /cygdrive/c/Chocolatey/bin/
+```
 
 ```
 Remove IE from the startbar.
