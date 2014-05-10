@@ -2,16 +2,21 @@ Setup Windows
 =============
 
 ```
-Install that .reg file adjacent to this one.
+Install the regs
 ```
 
 ```
 Install the desktop theme.
 ```
 
-Use this like for [Chrome](https://www.google.com/intl/en_au/chrome/browser/), otherwise you'll get the UK version. Sign in to Chrome
-and it'll start to download and install your extensions. Go through any plugin
-setup tabs that pop up.
+Use this like for [Chrome](https://www.google.com/intl/en_au/chrome/browser/),
+otherwise you'll get the UK version. Sign in to Chrome and it'll start to
+download and install your extensions. Go through any plugin setup tabs that pop
+up.
+
+Install [Chocolatey](http://chocolatey.org)
+
+Install [EditorConfig](http://chocolatey.org/packages/editorconfig.core)
 
 ```
 Remove IE from the startbar.
