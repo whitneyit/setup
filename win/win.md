@@ -293,8 +293,9 @@ bash -c "$(curl -fsSL raw.github.com/whitneyit/dotfiles/master/bin/dotfiles)"
 ```
 
 Afterwards, navigate to the directory in which you installed the dotfiles repo,
-and then navigate to `./shell/fonts/consolas` and `right click > install` the
-required fonts
+and then navigate to `./shell/fonts/powerline-fonts/SourceCodePro/` and select
+all of the `Sauce Code Powerline` fonts and then `right-click` on the selction
+and select install.
 
 Once that is complete, restart and you're good to go!!
 
