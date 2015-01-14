@@ -244,6 +244,7 @@ And when asked to select packages, choose packages from the following:
 
     Net
         * bind-utils
+        * corkscrew
         * curl
         * openssh
         * openssl
