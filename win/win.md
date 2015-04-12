@@ -307,7 +307,7 @@ You may have already got a warning about a missing file in the `~/.ssh`, well
 we're fixing that right now.
 
 ```
-mkdir-p ~/Code/ssh && cd ~/Code/ssh
+mkdir -p ~/Code/ssh && cd ~/Code/ssh
 ```
 
 ```
