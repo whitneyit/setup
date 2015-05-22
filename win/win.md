@@ -104,7 +104,7 @@ https://creative.adobe.com/products/creative-cloud
 
 Cygwin
 ------
-http://cygwin.com/setup-x86.exe or 64bit
+http://cygwin.com/setup-x86.exe or [64bit](https://cygwin.com/setup-x86_64.exe)
 
 Skype
 -----
