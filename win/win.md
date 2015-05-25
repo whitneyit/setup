@@ -271,11 +271,11 @@ close it.
 Next stat up cmd.exe as an admin and type the following
 
 ```
-rmdir /s /q C:\Users\%USERNAME%\Documents\cygwin\install\home\%USERNAME%
+rmdir /s /q C:\Users\%USERNAME%\Documents\Cygwin\install\home\%USERNAME%
 ```
 
 ```
-mklink /D C:\Users\%USERNAME%\Documents\cygwin\install\home\%USERNAME% C:\Users\%USERNAME%
+mklink /D C:\Users\%USERNAME%\Documents\Cygwin\install\home\%USERNAME% C:\Users\%USERNAME%
 ```
 
 Here you have a choice as to where you want to store the codebase for the
