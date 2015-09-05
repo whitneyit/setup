@@ -233,6 +233,8 @@ And when asked to select packages, choose packages from the following:
     Devel
         * ctags
         * gettext-devel
+        * gcc-core
+        * gcc-g++
         * git
         * git-completion
         * make
