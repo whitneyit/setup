@@ -235,6 +235,7 @@ And when asked to select packages, choose packages from the following:
         * gettext-devel
         * git
         * git-completion
+        * make
 
     Editors
         * vim: Vi IMproved
