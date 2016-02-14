@@ -9,6 +9,11 @@ Install the regs
 Install the desktop theme.
 ```
 
+Press `Windows + R` and search for `services.msc`. When that loads, stop and then disabled the following:
+
+    Super fetch
+    Windows Search
+
 Use this like for [Chrome](https://www.google.com/intl/en_au/chrome/browser/),
 otherwise you'll get the UK version. Sign in to Chrome and it'll start to
 download and install your extensions. Go through any plugin setup tabs that pop
