@@ -230,13 +230,15 @@ To see which mirror is closest to you, visit https://cygwin.com/mirrors.html
 
 And when asked to select packages, choose packages from the following:
 
+    Base
+        * ncurses
+
     Devel
         * ctags
         * gettext-devel
         * gcc-core
         * gcc-g++
         * git
-        * git-completion
         * make
 
     Editors
@@ -260,7 +262,6 @@ And when asked to select packages, choose packages from the following:
     Utils
         * dos2unix
         * cygutils-extra
-        * ncurses
         * tree
 
     Web
