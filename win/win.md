@@ -2,7 +2,7 @@ Setup Windows
 =============
 
 ```
-Install the regs
+Install the [regs](https://github.com/whitneyit/setup/tree/master/win/regs)
 ```
 
 ```
