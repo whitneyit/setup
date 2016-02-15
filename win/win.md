@@ -1,13 +1,9 @@
 Setup Windows
 =============
 
-```
 Install the [regs](https://github.com/whitneyit/setup/tree/master/win/regs)
-```
 
-```
 Install the desktop theme.
-```
 
 Press `Windows + R` and search for `services.msc`. When that loads, stop and then disabled the following:
 
