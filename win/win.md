@@ -263,6 +263,9 @@ And when asked to select packages, choose packages from the following:
         * python3
         * python3-setuptools
 
+    Shells
+        * chere
+
     Utils
         * dos2unix
         * cygutils-extra
