@@ -232,6 +232,7 @@ To see which mirror is closest to you, visit https://cygwin.com/mirrors.html
 And when asked to select packages, choose packages from the following:
 
     Archive
+        * unzip
         * zip
 
     Base
