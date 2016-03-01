@@ -290,6 +290,16 @@ rmdir /s /q C:\Users\%USERNAME%\Documents\Cygwin\install\home\%USERNAME%
 mklink /D C:\Users\%USERNAME%\Documents\Cygwin\install\home\%USERNAME% C:\Users\%USERNAME%
 ```
 
+If you need to use git via MySysGit, run the following
+
+```
+mkdir "C:\Program Files\Git\home"
+```
+
+```
+mklink /D "C:\Program Files\Git\home\%USERNAME%" C:\Users\%USERNAME%
+```
+
 Here you have a choice as to where you want to store the codebase for the
 [dotfiles](https://github.com/whitneyit/dotfiles) repo. You can nabigate to any
 folder and store the codebase there or simply run this command from your home
