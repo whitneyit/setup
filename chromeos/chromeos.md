@@ -79,3 +79,10 @@ and copy and paste them into
 [BitBucket](https://bitbucket.org/account/user/whitneyit/ssh-keys/)
 etc.
 
+===
+
+If at any time you want to delete the `chroot` simple bring up the Chrome shell and run:
+
+```sh
+$ sudo delete-chroot trusty
+```
