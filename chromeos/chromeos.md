@@ -51,10 +51,10 @@ Congrats! You just setup a Ubuntu on your Chromebook.
 
 To configure the environment first we need to do a few things.
 
-Install git
+Install our dependencies
 
 ```sh
-$ sudo apt-get install -y git
+$ sudo apt-get install -y curl git
 ```
 
 Setup dotfiles
