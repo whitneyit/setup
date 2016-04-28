@@ -83,6 +83,7 @@ Next, open them in [Text](https://chrome.google.com/webstore/detail/text/mmfbclj
 and copy and paste them into
 [GitHub](https://github.com/settings/keys),
 [BitBucket](https://bitbucket.org/account/user/whitneyit/ssh-keys/)
+[DigitalOcean](https://cloud.digitalocean.com/settings/security)
 etc.
 
 ===
