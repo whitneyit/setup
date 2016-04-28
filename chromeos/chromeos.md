@@ -73,7 +73,13 @@ $ cd ~/Code/ssh
 $ bash -c "$(curl -fsSL https://raw.github.com/whitneyit/ssh/master/setup)"
 ```
 
-Copy those keys to the `~/Downloads` folder and open them in [Text](https://chrome.google.com/webstore/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg?hl=en)
+Copy those keys to the `~/Downloads` folder:
+
+```sh
+$ cp ~/.ssh/*.pub ~/Downloads
+```
+
+Next, open them in [Text](https://chrome.google.com/webstore/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg?hl=en)
 and copy and paste them into
 [GitHub](https://github.com/settings/keys),
 [BitBucket](https://bitbucket.org/account/user/whitneyit/ssh-keys/)
