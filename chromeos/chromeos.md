@@ -70,7 +70,7 @@ Create ssh keys
 ```sh
 $ mkdir -p ~/Code/ssh
 $ cd ~/Code/ssh
-bash -c "$(curl -fsSL https://raw.github.com/whitneyit/ssh/master/setup)"
+$ bash -c "$(curl -fsSL https://raw.github.com/whitneyit/ssh/master/setup)"
 ```
 
 Copy those keys to the `~/Downloads` folder and open them in [Text](https://chrome.google.com/webstore/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg?hl=en)
