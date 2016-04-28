@@ -39,7 +39,7 @@ This will start a regular shell. Now we can run:
 $ sudo sh ~/Downloads/crouton -r trusty -t audio,chrome-dev,cli-extra,keyboard,touch,unity,xorg
 ```
 
-Grab a coffee as the above command will take a while. Once that has finished, you can enter that root with
+Grab a coffee as the above command will take a while. Once that has finished, log out of the shell `Ctrl+D` and then log back in with:
 
 ```sh
 $ sudo enter-chroot
@@ -50,6 +50,12 @@ Congrats! You just setup a Ubuntu on your Chromebook.
 ===
 
 To configure the environment first we need to do a few things.
+
+Install git
+
+```sh
+$ sudo apt-get install -y git
+```
 
 Setup dotfiles
 
