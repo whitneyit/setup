@@ -14,9 +14,7 @@ To access an elevated shell:
 $ sudo su
 ```
 
-If you get asked for a password press `Ctrl+D` to exit the prompt and then close the terminal. Once the terminal is closed, press `Ctrl+Alt+F2`. When it asks for a login type `root` and press enter. If the password is not empty, try the following `root toor chronos chrome chromium facepunch`.
-
-Now that you are logged in as root, you can type `chromeos-setdevpasswd` and set it to `root`. This sets the password on the  `chronos` to `root`.
+If you are asked for a password click [here](passwd.md)
 
 Next, configure the update channel
 
