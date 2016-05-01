@@ -2,25 +2,31 @@
 
 First we need to enable [developer mode](http://www.howtogeek.com/210817/how-to-enable-developer-mode-on-your-chromebook)
 
-With that done we can download [crouton](https://goo.gl/fd3zc)
+With that done, we can access the hidden ChromeOS shell.
 
-Open up terminal
+Open up Chrome and press `Ctrl+Alt+T` then type `shell`.
 
-> Open Chrome and press `Ctrl+Alt+T` then type shell
+You should see something like this:
 
-To access an elevated shell:
+![shell](http://i.imgur.com/UmzgMXq.png)
+
+===
+
+Next, we need to configure the update channel, but first we need an elevated shell. To do that, we need to type:
 
 ```sh
 $ sudo su
 ```
 
-If you are asked for a password click [here](passwd.md).
+You may get some warning about using [sudo](https://en.wikipedia.org/wiki/Sudo) don't worry about it, that's normal.
 
-If you want to mount the filesystem, you can view the instructions [here](mount.md).
+If you are asked for a password, you can try fixing that [here](passwd.md).
 
-===
+Once you're logged in as root, you should see something like this
 
-Next, configure the update channel
+![sudo_shell](http://i.imgur.com/eHdSiXD.png)
+
+We can now set the update channell with the following.
 
 ```sh
 $ update_engine_client --channel=canary-channel --update
@@ -29,6 +35,11 @@ $ update_engine_client --channel=canary-channel --update
 Now you have to wait for the patch to be downloaded. Once it has been, you'll get a notification to perform a
 [PowerWash](https://support.google.com/chromebook/answer/183084)
 to update to the canary channel.
+
+Once you've powerwashed the device, you'll need to re-enable
+[developer mode](http://www.howtogeek.com/210817/how-to-enable-developer-mode-on-your-chromebook).
+
+===
 
 Now we're going to download
 [crouton](https://github.com/dnschneid/crouton) from [here](https://goo.gl/fd3zc).
@@ -45,7 +56,7 @@ This will start a regular shell. Now we can run:
 $ sudo sh ~/Downloads/crouton -r trusty -t audio,chrome-dev,cli-extra,keyboard,touch,unity,xorg
 ```
 
-Grab a coffee as the above command will take a while. Once that has finished, log out of the shell `Ctrl+D` and then log back in with:
+Grab a coffee as the above command will take a while. Once that has finished, you can log into the shell with:
 
 ```sh
 $ sudo enter-chroot
@@ -85,12 +96,15 @@ Copy those keys to the `~/Downloads` folder:
 $ cp ~/.ssh/*.pub ~/Downloads
 ```
 
-Next, open them in [Text](https://chrome.google.com/webstore/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg?hl=en)
-and copy and paste them into
-[GitHub](https://github.com/settings/keys),
-[BitBucket](https://bitbucket.org/account/user/whitneyit/ssh-keys/)
-[DigitalOcean](https://cloud.digitalocean.com/settings/security)
-etc.
+Next, we need to open them in an editor. You can install
+[Simple Editor](https://chrome.google.com/webstore/detail/simple-editor/dbcakhkjkfomilmicpakkdfoannfonmi)
+which is pretty good.
+
+Once they're open, copy and paste them into the various sites that require keys:
+
+* [GitHub](https://github.com/settings/keys),
+* [BitBucket](https://bitbucket.org/account/user/whitneyit/ssh-keys/)
+* [DigitalOcean](https://cloud.digitalocean.com/settings/security)
 
 ===
 
@@ -99,3 +113,7 @@ If at any time you want to delete the `chroot` simple bring up the Chrome shell 
 ```sh
 $ sudo delete-chroot trusty
 ```
+
+===
+
+If you want to mount the filesystem, you can view the instructions [here](mount.md).
