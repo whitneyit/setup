@@ -14,7 +14,11 @@ To access an elevated shell:
 $ sudo su
 ```
 
-If you are asked for a password click [here](passwd.md)
+If you are asked for a password click [here](passwd.md).
+
+If you want to mount the filesystem, you can view the instructions [here](mount.md).
+
+===
 
 Next, configure the update channel
 
