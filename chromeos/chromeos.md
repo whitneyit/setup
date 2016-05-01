@@ -14,6 +14,10 @@ To access an elevated shell:
 $ sudo su
 ```
 
+If you get asked for a password press `Ctrl+D` to exit the prompt and then close the terminal. Once the terminal is closed, press `Ctrl+Alt+F2`. When it asks for a login type `root` and press enter. If the password is not empty, try the following `root toor chronos chrome chromium facepunch`.
+
+Now that you are logged in as root, you can type `chromeos-setdevpasswd` and set it to `root`. This sets the password on the  `chronos` to `root`.
+
 Next, configure the update channel
 
 ```sh
@@ -25,7 +29,7 @@ Now you have to wait for the patch to be downloaded. Once it has been, you'll ge
 to update to the canary channel.
 
 Now we're going to download
-[crouton](https://github.com/dnschneid/crouton).
+[crouton](https://github.com/dnschneid/crouton) from [here](https://goo.gl/fd3zc).
 
 Once that has been downloaded open a terminal as described above, then type:
 
