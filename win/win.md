@@ -10,7 +10,8 @@ Press `Windows + R` and search for `services.msc`. When that loads, stop and the
     Super fetch
     Windows Search
 
-Use this like for [Chrome](https://www.google.com/intl/en_au/chrome/browser/),
+Use this like for [Chrome](https://www.google.com/intl/en_au/chrome/browser/desktop/index.html), and this link
+for [Canary](https://www.google.com/intl/en_au/chrome/browser/canary.html),
 otherwise you'll get the UK version. Sign in to Chrome and it'll start to
 download and install your extensions. Go through any plugin setup tabs that pop
 up.
