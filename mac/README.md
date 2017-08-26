@@ -1,9 +1,8 @@
-# Setting up a Mac #
+# Setup Mac #
 
 Download and install the following
 
- * [Alfred](http://www.alfredapp.com/#download   "Download AlrfedApp")
- * [Chrome](https://www.google.com.au/chrome     "Download Chrome")
+ * [Alfred](http://www.alfredapp.com/#download "Download AlrfedApp")
  * [Dropbox](https://www.dropbox.com/downloading "Download Dropbox")
  * [iTerm2](http://www.iterm2.com/#/section/home "Download iTerm2")
 
