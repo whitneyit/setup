@@ -1,4 +1,4 @@
-# Setting up a Chromebook for development
+# Setup ChromeOS
 
 First we need to enable [developer mode](http://www.howtogeek.com/210817/how-to-enable-developer-mode-on-your-chromebook)
 
